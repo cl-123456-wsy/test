@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(253, 253, 252);
+    overflow: hidden;
+}
+
+h3, h5 {
+	text-align: center;
+	margin: 12px;
+}
+
+.small {
+	color: #a30707;
+	font-size: 12px;
+	text-align: center;
+}
+
+canvas {
+    border: 1px solid rgb(236, 192, 147);
+	border-radius: 5px;
+    margin: auto;
+    display: block;
+	background-color: rgb(212, 153, 81);
+}
+
+html {
+	overflow: hidden;
+	min-width: 360px;
+}
+
+/* 避免长按复制 */
+* {
+	padding: 0;
+	margin: 0;
+    -webkit-touch-callout:none;  /*系统默认菜单被禁用*/
+    -webkit-user-select:none; /*webkit浏览器*/
+    -khtml-user-select:none; /*早期浏览器*/
+    -moz-user-select:none;/*火狐*/
+    -ms-user-select:none; /*IE10*/
+    user-select:none;
+}
+/* input {
+	-webkit-user-select: auto;
+} */
+
+#restartBtn {
+	display: block;
+	margin: 24px auto;
+	width: 128px;
+	height: 48px;
+}
